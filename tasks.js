@@ -16,3 +16,12 @@ window.initialTasks = [
 		done: false
 	}
 ];
+    {
+		id: 3,
+		subject: "Математика",
+		title: "ничего",
+		dueDate: "2026-09-04",
+		note: "",
+		done: false
+	}
+];
