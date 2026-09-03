@@ -19,7 +19,7 @@ window.initialTasks = [
 		id: 3,
 		subject: "Математика",
 		title: "ничего",
-		dueDate: "2026-09-04",
+		dueDate: "2026-09-09",
 		note: "",
 		done: false
 	}
