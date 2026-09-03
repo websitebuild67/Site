@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#f4efe7">
+  <title>Дедлайнер — домашние задания</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="page-shell">
+    <header class="topbar">
+      <a class="brand" href="#top" aria-label="Дедлайнер">
+        <span class="brand-mark">Д</span>
+        <span>дедлайнер</span>
+      </a>
+      <div class="topbar-note"><span class="status-dot"></span> твой учебный ритм</div>
+    </header>
+
+    <main id="top">
+      <section class="intro">
+        <div>
+          <p class="eyebrow">ПЛАН НА СЕГОДНЯ <span id="todayLabel"></span></p>
+          <h1>Держи всё<br><em>под контролем.</em></h1>
+          <p class="intro-copy">Здесь собраны все твои домашние задания.</p>
+        </div>
+      </section>
+
+      <section class="workspace" aria-label="Домашние задания">
+        <section class="tasks-panel">
+          <div class="tasks-header">
+            <div>
+              <span class="section-kicker">ДОМАШНИЕ ЗАДАНИЯ</span>
+              <h2>Задания <span id="taskCount">0</span></h2>
+            </div>
+          </div>
+          <div id="taskList" class="task-list"></div>
+          <div id="emptyState" class="empty-state">
+            <div class="empty-icon">✦</div>
+            <h3>Пока здесь тихо</h3>
+            <p>Добавь первое задание в файл tasks.js, и план на неделю станет яснее.</p>
+          </div>
+        </section>
+      </section>
+    </main>
+    <footer><span>Источник: tasks.js</span><span>© дедлайнер</span></footer>
+  </div>
+  <script src="tasks.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
