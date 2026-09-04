@@ -14,5 +14,13 @@ window.initialTasks = [
 		dueDate: "2026-09-09",
 		note: "",
 		done: false
+	},
+	{
+		id: 3,
+		subject: "Кубановедение",
+		title: "кто не рассказал про посёлок город на этом уроке рассказать на следующей лекции",
+		dueDate: "2026-09-11",
+		note: "",
+		done: false
 	}
 ];
