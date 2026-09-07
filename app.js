@@ -1,5 +1,7 @@
-console.log("initialTasks:", window.initialTasks);
-console.log("Количество:", window.initialTasks?.length);
+const fileTasks = Array.isArray(window.initialTasks) ? window.initialTasks : [];
+let tasks = [...fileTasks];
+const MAX_VISIBLE_TASKS = 20;
+
 const list = document.querySelector("#taskList");
 const emptyState = document.querySelector("#emptyState");
 
@@ -17,7 +19,7 @@ function formatDate(dateString, options = { day: "numeric", month: "short" }) {
 }
 
 function render() {
-  const visible = tasks;
+  const visible = tasks.slice(0, MAX_VISIBLE_TASKS);
   list.innerHTML = visible.map((task) => {
     const overdue = !task.done && new Date(`${task.dueDate}T00:00:00`) < today;
     return `<article class="task ${task.done ? "completed" : ""}">
@@ -36,7 +38,7 @@ function render() {
     </article>`;
   }).join("");
   emptyState.style.display = visible.length ? "none" : "block";
-  document.querySelector("#taskCount").textContent = tasks.filter((task) => !task.done).length;
+  document.querySelector("#taskCount").textContent = visible.filter((task) => !task.done).length;
 }
 
 function escapeHtml(value) {
