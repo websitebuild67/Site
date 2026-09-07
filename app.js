@@ -1,3 +1,5 @@
+console.log("initialTasks:", window.initialTasks);
+console.log("Количество:", window.initialTasks?.length);
 const fileTasks = Array.isArray(window.initialTasks) ? window.initialTasks : [];
 let tasks = [...fileTasks];
 
