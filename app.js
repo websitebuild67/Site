@@ -1,3 +1,5 @@
+console.log("initialTasks:", window.initialTasks);
+console.log("Количество:", window.initialTasks?.length);
 const list = document.querySelector("#taskList");
 const emptyState = document.querySelector("#emptyState");
 
