@@ -11,7 +11,7 @@ window.initialTasks = [
 		id: 2,
 		subject: "Иностранный язык в профессиональной деятельности",
 		title: "скоро обновится",
-		dueDate: "2026-09-31",
+		dueDate: "2026-09-21",
 		note: "",
 		done: false
 	},
