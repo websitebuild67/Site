@@ -19,8 +19,8 @@ window.initialTasks = [
 		id: 3,
 		subject: "Информатика",
 		title: "Дописать/Подготовиться к входному контролю",
-		dueDate: "2026-09-31",
-		note: "дата скоро обновится",
+		dueDate: "2026-09-22",
+		note: "",
 		done: false
 	},
 	{  
