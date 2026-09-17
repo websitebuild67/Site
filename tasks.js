@@ -3,7 +3,7 @@ window.initialTasks = [
 		id: 1,
 		subject: "Организационно-правовое обеспечение информационной безопасности",
 		title: "скоро обновится",
-		dueDate: "2026-09-00",
+		dueDate: "2026-09-31",
 		note: "",
 		done: false
 	},
@@ -11,7 +11,7 @@ window.initialTasks = [
 		id: 2,
 		subject: "Иностранный язык в профессиональной деятельности",
 		title: "скоро обновится",
-		dueDate: "2026-09-00",
+		dueDate: "2026-09-31",
 		note: "",
 		done: false
 	},
@@ -19,8 +19,8 @@ window.initialTasks = [
 		id: 3,
 		subject: "Информатика",
 		title: "Дописать/Подготовиться к входному контролю",
-		dueDate: "2026-09-00",
-		note: "",
+		dueDate: "2026-09-31",
+		note: "дата скоро обновится",
 		done: false
 	},
 	{  
